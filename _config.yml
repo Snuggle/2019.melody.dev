@@ -19,11 +19,11 @@ plugins:
   - jekyll-auto-image
   - jekyll-postfiles
 
+exclude: [vendor]
 # Build settings
 encoding: utf-8
 markdown: kramdown
 exclude:
-  - [vendor]
   - .sass-cache/
   - node_modules/
   - .gitignore
