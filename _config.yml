@@ -23,6 +23,7 @@ plugins:
 encoding: utf-8
 markdown: kramdown
 exclude:
+  - [vendor]
   - .sass-cache/
   - node_modules/
   - .gitignore
